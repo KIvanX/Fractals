@@ -35,6 +35,7 @@ class My_Turtle:
         self.n, self.m = n, m
         self.window = pg.display.set_mode((n, m))
         self.window.fill((10, 120, 10))
+        pg.display.set_caption('L-системы')
 
     def update(self, point=True):
         if point:
